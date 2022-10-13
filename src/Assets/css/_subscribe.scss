@@ -1,0 +1,250 @@
+
+@media (max-width: 1350px) {
+    .subscribe_box {
+        margin-top: -100px !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    #buttonWrap {
+        // border: 1px solid yellow;
+        width: 85vw;
+    }
+}
+@media (max-width: 800px) {
+    #buttonWrap {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    #buttonWrap a {
+        margin-top: 2vh;
+    }
+    .excavation_goblin{
+        // border: 1px solid red!important;
+        // padding-bottom: 200px;
+        margin-top: -100px;  
+    }
+}
+@media(max-width:450.10px){
+    .excavation_goblin{
+        // border: 1px solid red!important;
+        // padding-bottom: 200px;
+        margin-top: -100px!important;
+        right: -20px!important;  
+    }
+}
+
+.subscribe-btn {
+    // border: 1px solid red;
+    display: flex;
+    // justify-content: space-between;
+
+    width: 100vw;
+}
+.mintBtn2 {
+    width: auto;
+    margin-right: 20px;
+}
+@media (max-width: 575.56px) {
+    .subscribe-btn {
+        width: 20vw !important;
+    }
+    .subscribe-btn > li {
+        width: 10vw !important;
+    }
+    .excavation_goblin{
+        // border: 1px solid red!important;
+        padding:50px 0 30px 0;
+        margin: 50px 0;
+        right: 40px;
+    }
+}
+@media (max-width: 575.56px) {
+    .excavation_goblin{
+      
+        right: 30px!important;
+    }
+}
+
+.Subscribe {
+    margin: 100px 0 370px 0;
+    position: relative;
+    z-index: 99;
+    @media (max-width: 991.98px) {
+        margin: 100px 0 300px 0;
+    }
+    @media (max-width: 495.98px) {
+        margin: 100px 0 320px 0;
+    }
+    .rightCrackedSubscribe {
+        right: 0;
+        top: -110%;
+        @media (max-width: 991.98px) {
+            top: -15%;
+            width: 180px;
+        }
+    }
+    .leftCrackedSubscribe {
+        top: -30%;
+        left: -5%;
+        @media (max-width: 991.98px) {
+            top: -10%;
+            width: 200px;
+        }
+        @media (max-width: 499.98px) {
+            top: 14%;
+            width: 180px;
+        }
+    }
+    .neonLine {
+        top: -90%;
+        left: -5%;
+        @media (max-width: 991.98px) {
+            top: -15%;
+            width: 250px;
+        }
+    }
+    .subscribe_rightBlob {
+        right: 0;
+        bottom: 5%;
+        z-index: -9;
+        @media (max-width: 991.98px) {
+            width: 400px;
+            bottom: 5%;
+        }
+    }
+    .subscribe_Grid {
+        right: 0;
+        top: -40%;
+        z-index: -9;
+        @media (max-width: 991.98px) {
+            display: none;
+        }
+    }
+    .subscribe_box {
+        @media (max-width: 575.98px) {
+            text-align: center;
+        }
+        .subscribe_tittle {
+            width: 990px;
+            margin-left: -15px;
+            z-index: 9;
+            @media (max-width: 1399.98px) {
+                width: 900px;
+            }
+            @media (max-width: 1199.98px) {
+                width: 800px;
+            }
+            @media (max-width: 991.98px) {
+                width: 100%;
+            }
+            @media (max-width: 575.98px) {
+                display: none;
+            }
+        }
+        .subscribe_tittle_mobile {
+            display: none;
+            @media (max-width: 575.98px) {
+                display: unset;
+                width: 100%;
+            }
+        }
+        .subscribe_col {
+            z-index: 9;
+            .subscribe_paragraph {
+                padding-top: 40px;
+                z-index: 99;
+                @media (max-width: 1199.98px) {
+                    max-width: 100%;
+                }
+                @media (max-width: 575.98px) {
+                    margin: 0 auto;
+                }
+                @media (max-width: 498.98px) {
+                    width: 60%;
+                }
+                @media (max-width: 398.98px) {
+                    width: 80%;
+                }
+            }
+            .buttons {
+                margin-top: 120px;
+                position: relative;
+                z-index: 999;
+
+                @media (max-width: 1199.98px) {
+                    margin-top: 80px;
+                }
+                @media (max-width: 575.98px) {
+                    display: inline-grid;
+                    margin-top: 40px;
+                }
+                a {
+                    margin-right: 25px;
+                    @media (max-width: 1199.98px) {
+                        margin-right: 15px;
+                    }
+                    @media (max-width: 575.98px) {
+                        margin-right: 0;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+        .subscribe_img {
+            position: relative;
+            width: 1100px;
+            bottom: 180%;
+            left: -80px;
+            @media (max-width: 1699.98px) {
+                left: 0px;
+            }
+            @media (max-width: 1599.98px) {
+                width: 990px;
+                bottom: 170%;
+            }
+            @media (max-width: 1499.98px) {
+                width: 910px;
+                bottom: 155%;
+                left: 0px;
+            }
+            @media (max-width: 1379.98px) {
+                left: -40px;
+            }
+            @media (max-width: 1199.98px) {
+                width: 850px;
+                left: -50px;
+                bottom: 140%;
+            }
+            @media (max-width: 991.98px) {
+                width: 700px;
+                left: 330px;
+                bottom: -5%;
+            }
+            @media (max-width: 769.98px) {
+                left: 190px;
+                bottom: -10%;
+            }
+            @media (max-width: 575.98px) {
+                width: 550px;
+                left: 195px;
+                bottom: 105%;
+            }
+            @media (max-width: 449.98px) {
+                width: 500px;
+                left: 35px;
+                bottom: 5%;
+            }
+        }
+    }
+    .excavation_goblin {
+        height: 260px;
+        @media (max-width: 574.98px) {
+            height: 230px;
+        }
+        @media only screen and (min-width: 576px) and (max-width: 992px) {
+            margin-bottom: 200px;
+        }
+    }
+}

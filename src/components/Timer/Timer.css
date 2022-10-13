@@ -1,0 +1,181 @@
+.timerContainer {
+    border: 1px solid #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 30px 0;
+    border-radius: 5px;
+    margin: 100px 0 250px 0;
+    box-shadow: rgba(0, 222, 238, 0.9) 0px 0px 22px 0px;
+    background-color: #242424;
+    position: relative;
+}
+.timer {
+    display: flex;
+}
+.timerContainer .bold-text {
+    font-size: 38px;
+    /* font-weight: bold; */
+    text-transform: uppercase;
+}
+.timer > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    /* font-size: 20px; */
+    margin: 30px 10px;
+    border: 1px solid rgb(0, 222, 238);
+    padding: 16px 0;
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 222, 238, 0.9) 0px 0px 9px 0px;
+    /* background-color: rgba(255, 255, 255, 0.4); */
+    /* background-color: rgb(0, 222, 238); */
+    /* background-color: white; */
+}
+.numbers {
+    font-size: 36px;
+    color: rgb(0, 222, 238);
+    font-weight: bold;
+}
+.duration {
+    font-size: 16px;
+    color: rgb(0, 222, 238);
+    font-weight: bold;
+}
+.textImg2 {
+    width: 650px;
+}
+.textImg1 {
+    width: 450px;
+}
+
+@media (max-width: 1100px) {
+    .timer > div {
+        width: 18vw;
+    }
+    .textImg2 {
+        width: 500px;
+    }
+    .textImg1 {
+        width: 350px;
+    }
+    .timerContainer {
+        margin-top: -130px;
+    }
+}
+@media (max-width: 1000px) {
+    .timer > div {
+        width: 16vw;
+    }
+    .textImg2 {
+        width: 500px;
+    }
+    .textImg1 {
+        width: 350px;
+    }
+}
+@media(max-width:767.78px){
+    .timerContainer{
+        /* border: 1px solid red; */
+    }
+    .timer>div{
+        /* border: 1px solid red; */
+        width: 100px;
+        padding: 6px 0;
+    }
+    .timer>div>div{
+        font-size: 16px;
+        padding: 5px 0;
+    }
+    .textImg2 {
+        width: 380px;
+    }
+}
+@media (max-width: 600px) {
+    .timer > div {
+        width: 18vw;
+        padding: 4px 0;
+    }
+    .textImg2 {
+        width: 400px;
+    }
+    .textImg1 {
+        width: 250px;
+    }
+    .numbers {
+        font-size: 30px;
+    }
+    .duration {
+        font-size: 12px;
+    }
+}
+@media (max-width: 500px) {
+    .timer > div {
+        width: 18vw;
+        padding: 4px 0;
+    }
+    .textImg2 {
+        width: 350px;
+    }
+    .textImg1 {
+        width: 230px;
+    }
+    .numbers {
+        font-size: 23px;
+    }
+    .duration {
+        font-size: 10px;
+    }
+}
+@media (max-width: 450px) {
+    .timer > div {
+        width: 17vw;
+        padding: 4px 0;
+    }
+    .timer>div>div{
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+    .textImg2 {
+        width: 300px;
+    }
+    .textImg1 {
+        width: 200px;
+    }
+    .numbers {
+        font-size: 22px;
+    }
+    .duration {
+        font-size: 10px;
+    }
+    .timerContainer {
+        margin-top: -105px;
+        margin-bottom: 190px;
+    }
+}
+@media (max-width: 400px) {
+    .timer > div {
+        width: 16.5vw;
+        padding: 4px 0;
+    }
+    .textImg2 {
+        width: 280px;
+    }
+    .textImg1 {
+        width: 190px;
+    }
+    .numbers {
+        font-size: 22px;
+    }
+    .duration {
+        font-size: 10px;
+    }
+    .timer>div>div{
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+}

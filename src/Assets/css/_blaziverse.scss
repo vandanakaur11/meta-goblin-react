@@ -1,0 +1,178 @@
+@media(min-width:1200px){
+    .newPara{
+        width: 55vw!important;
+        // border: 1px solid red;
+    } 
+    // .row>div>a{
+    //   border: 1px solid red;
+    //   margin-left: 60% !important;
+    // }
+}
+
+@media(max-width:1024px){
+    .newPara{
+        width: 70vw!important;
+        // border: 1px solid red;
+    }
+}
+@media(max-width:750px){
+    .newPara{
+        width: 55vw!important;
+        // border: 1px solid red;
+    }
+}
+@media(max-width:550px){
+    .newPara{
+        width: 80vw!important;
+        // border: 1px solid red;
+    }
+}
+
+
+@media(min-width:450px){
+    .metablazeToken{
+        margin-top: -270px;
+        margin-bottom: -70px!important;
+    }
+}
+
+
+@media(max-width:450px){
+    .metablazeToken{
+        border: 1px solid red;
+        margin-bottom: -70px!important;
+        margin-top: -140px;
+    }
+    
+}
+
+.Blaziverse{
+    margin-bottom: 180px;
+    position: relative;
+    @media (max-width:991.98px) {
+        margin-bottom: 140px;
+    }
+    .blaziverse_rightBlob{
+        right: 0;
+        bottom: -300px;
+        z-index: -1;
+        @media (max-width:1199.98px) {
+            top: -70%;
+        }
+        @media (max-width:991.98px) {
+            z-index: 0;
+        }
+    }
+    .blaziverse_Grid{
+        bottom: 0;
+        z-index: -1;
+    }
+    .blaziverse_box{
+        background: linear-gradient(261.29deg, rgba(255, 255, 255, 0.1) -5.2%, rgba(59, 237, 249, 0.1) 102.17%);
+        border: 2px solid #FFFFFF;
+        border-radius: 6px;
+        padding: 60px;
+        background: -webkit-gradient(linear, left top, left bottom, from(#242424)) padding-box, -webkit-gradient(linear, right top, left top, from(#3BEDF9), to(#0041FF)) border-box;
+        backdrop-filter: blur(60px);
+        box-shadow: rgba(59, 237, 249, 100) 0px 0px 16px;
+        @media (max-width:991.98px) {
+            padding: 40px;
+        }
+        @media (max-width:575.98px) {
+            padding: 40px 20px;
+        }
+        .blaziverse_tittle{
+            width: 730px;
+            margin-left: -25px;
+            @media (max-width:1199.98px) {
+                width: 530px;
+            }
+            @media (max-width:991.98px) {
+                display: none;
+            }
+        }
+        .blaziverse_tittle_mobile{
+            display: none;
+            @media (max-width:991.98px) {
+                display: unset;
+                width: 60%;
+                margin-left: -15px;
+            }
+            @media (max-width:765.98px) {
+                width: 70%;
+                height: auto;
+            }
+            @media (max-width:575.98px) {
+                width: 100%;
+                height: auto;
+            }
+        }
+        .blaziverse_paragraph{
+            padding-top: 40px;
+            padding-bottom: 70px;
+            @media (max-width:991.98px) {
+                padding-top: 30px;
+                padding-bottom: 60px;
+            }
+        }
+        .btn_blaziverse{
+            padding: 16px 40px;
+            margin-left: 0;
+            z-index: 99999;
+            @media (max-width:991.98px) {
+                padding: 16px 24px;
+            }
+        }
+        .blaziverse_mobile{
+            position: absolute;
+            bottom: -25%;
+            left: 20%;
+            @media (max-width:1499.98px) {
+                left: 15%;
+            }
+            @media (max-width:1399.98px) {
+                height: 580px;
+                width: auto;
+                left: 10%;
+                bottom: -20%;
+            }
+            @media (max-width:1259.98px) {
+                width: 560px;
+                height: auto;
+                left: -5%;
+            }
+            @media (max-width:991.98px) {
+                height: 400px;
+                width: auto;
+                bottom: 260px;
+                left: 60%;
+            }
+            @media (max-width:765.98px) {
+                height: 380px;
+                left: 50%;
+                bottom: 330px;
+            }
+            @media (max-width:595.98px) {
+                height: 330px;
+                left: 40%;
+                bottom: 400px;
+            }
+            @media (max-width:435.98px) {
+                left: 30%;
+                bottom: 400px;
+                height: 290px;
+            }
+            @media (max-width:390.98px) {
+                height: 270px;
+                left: 25%;
+                bottom: 420px;
+            }
+            @media (max-width:371.98px) {
+                bottom: 440px;
+            }
+            @media (max-width:335.98px) {
+                bottom: 460px;
+            }
+        }
+    }
+}
